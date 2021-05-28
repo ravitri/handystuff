@@ -11,3 +11,9 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -d
 ```bash
 for file in 00{1..5}; do echo $file; convert ${file}.jpg ${file}.pdf;done
 ```
+
+## 3. Extract music from audio file using command line
+```bash
+#ffmpeg -i input.mp4 -ss <start-time> -t <duration> -q:a 0 -map a output.mp3
+ffmpeg -i input.mp4 -ss 00:00:00 -t 00:00:30.0 -q:a 0 -map a output.mp3
+```
