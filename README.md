@@ -1,7 +1,7 @@
 # handystuff
 
-The repository comprises of short util one-liners/scripts which can be handy.
+A collection of short, handy one-liners and scripts.
 
-1. [fileutils](https://github.com/ravitri/handystuff/tree/master/fileutils)
-
-2. [slackutils](https://github.com/ravitri/handystuff/tree/master/slackutils)
+1. [fileutils](./fileutils): one-liners for working with PDF, image and audio/video files
+2. [slackutils](./slackutils): helpers for making Slack emoji
+3. [scripts](./scripts): standalone scripts (e.g. home directory backup)
